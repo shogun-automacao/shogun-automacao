@@ -1,16 +1,37 @@
 <!doctype html>
 <html lang='br-pt'>
 	<head>
+		<meta name='author' content='Renato Araujo @renatoexpert'>
+		<meta name='theme-color' content='rgb(0,0,0)'>
 		<title>Shogun Automação</title>
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 	<body>
-		<h1>Shogun Automação</h1>
-		<ul>
-			<li>Inicio</li>
-			<li>Sobre</li>
-			<li>Serviços</li>
-			<li>Produtos</li>
-			<li>Contato</li>
-		</ul>
+		<nav class='navbar fixed-top navbar-expand-lg navbar-dark bg-dark' role='menu'>
+			<a class='navbar-brand' href='#'>
+				<img src='/img/small.png' width='90' height='90' class='d-inline-block align-top' alt='Shogun'>
+				<!-- SHOGUN -->
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="/#home">Inicio<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="/#sobre">Sobre</a>
+					<a class="nav-item nav-link" href="/#portifolio">Serviços</a>
+					<a class="nav-item nav-link disabled" href="/registrar">Produtos</a>
+					<a class="nav-item nav-link disabled" href="/registrar">Contratar</a>
+				</div>
+				<div class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+					<button type="button" class="btn btn-link">Ajuda</button>
+					<button type="button" class="btn btn-success" data-toggle='modal' data-target='#login-Modal'>
+						Conectar
+					</button>
+				</div>
+			</div>
+		</nav>
 	</body>
 </html>
